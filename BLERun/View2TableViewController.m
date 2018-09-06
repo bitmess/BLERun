@@ -40,10 +40,6 @@ static NSString* const kWriteId = @"88888888-8888-8888-8888-888888888888";
     NSLog(@"%s",__FUNCTION__);
 #endif
     
-    [_peripheral setNotifyValue:NO forCharacteristic:_notifyCha];
-    _notifyCha = nil;
-    _writeCha = nil;
-    _ser = nil;
 }
 
 - (void)viewDidLoad {
@@ -83,6 +79,7 @@ static NSString* const kWriteId = @"88888888-8888-8888-8888-888888888888";
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
+    [_peripheral setNotifyValue:NO forCharacteristic:_notifyCha];
     [super viewWillDisappear:animated];
 }
 
