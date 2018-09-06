@@ -150,7 +150,7 @@ static NSString* const kWriteId = @"88888888-8888-8888-8888-888888888888";
     }
     
     if (!_ser) {
-        [peripheral discoverCharacteristics:nil forService:_ser];
+        [self _autoConnect];
     }
     
 }
