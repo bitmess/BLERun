@@ -34,6 +34,18 @@ static NSString* const kWriteId = @"88888888-8888-8888-8888-888888888888";
 
 @implementation View2TableViewController
 
+- (void)dealloc {
+    
+#ifdef DEBUG
+    NSLog(@"%s",__FUNCTION__);
+#endif
+    
+    [_peripheral setNotifyValue:NO forCharacteristic:_notifyCha];
+    _notifyCha = nil;
+    _writeCha = nil;
+    _ser = nil;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
