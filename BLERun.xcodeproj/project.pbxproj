@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6613DE86AF0BBD706D877E48 /* libPods-BLERun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D151CF1DFA0F53DCA4E220 /* libPods-BLERun.a */; };
+		AB0E9FBE213FCB85007A8E3D /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E9FBC213FCB85007A8E3D /* MessageTableViewCell.m */; };
+		AB0E9FBF213FCB85007A8E3D /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0E9FBD213FCB85007A8E3D /* MessageTableViewCell.xib */; };
+		AB9A7809213FBF2200B1C531 /* systemEmoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB9A77E1213FBF2100B1C531 /* systemEmoji.plist */; };
+		AB9A780A213FBF2200B1C531 /* emotion.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB9A77E2213FBF2100B1C531 /* emotion.plist */; };
+		AB9A780B213FBF2200B1C531 /* face.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB9A77E3213FBF2100B1C531 /* face.plist */; };
+		AB9A780C213FBF2200B1C531 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77E6213FBF2100B1C531 /* NSString+Emoji.m */; };
+		AB9A780D213FBF2200B1C531 /* MoreItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77EC213FBF2100B1C531 /* MoreItem.m */; };
+		AB9A780E213FBF2200B1C531 /* ChatToolBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77ED213FBF2100B1C531 /* ChatToolBarItem.m */; };
+		AB9A780F213FBF2200B1C531 /* FaceThemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77EE213FBF2100B1C531 /* FaceThemeModel.m */; };
+		AB9A7810213FBF2200B1C531 /* FacePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77F4213FBF2100B1C531 /* FacePanel.m */; };
+		AB9A7811213FBF2200B1C531 /* PanelBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77F6213FBF2100B1C531 /* PanelBottomView.m */; };
+		AB9A7812213FBF2200B1C531 /* FaceThemeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77F7213FBF2100B1C531 /* FaceThemeView.m */; };
+		AB9A7813213FBF2200B1C531 /* FacePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77F9213FBF2100B1C531 /* FacePageView.m */; };
+		AB9A7814213FBF2200B1C531 /* FaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77FB213FBF2100B1C531 /* FaceButton.m */; };
+		AB9A7815213FBF2200B1C531 /* RFRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A77FE213FBF2100B1C531 /* RFRecordButton.m */; };
+		AB9A7816213FBF2200B1C531 /* ChatToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A7800213FBF2100B1C531 /* ChatToolBar.m */; };
+		AB9A7817213FBF2200B1C531 /* RFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A7801213FBF2100B1C531 /* RFTextView.m */; };
+		AB9A7818213FBF2200B1C531 /* OfficialAccountToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A7802213FBF2100B1C531 /* OfficialAccountToolbar.m */; };
+		AB9A7819213FBF2200B1C531 /* MorePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A7806213FBF2100B1C531 /* MorePanel.m */; };
+		AB9A781A213FBF2200B1C531 /* ChatKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9A7808213FBF2100B1C531 /* ChatKeyBoard.m */; };
+		ABF29C3C213D072B006382A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF29C3B213D072B006382A9 /* AppDelegate.m */; };
+		ABF29C3F213D072B006382A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF29C3E213D072B006382A9 /* ViewController.m */; };
+		ABF29C42213D072B006382A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF29C40213D072B006382A9 /* Main.storyboard */; };
+		ABF29C44213D072C006382A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF29C43213D072C006382A9 /* Assets.xcassets */; };
+		ABF29C47213D072C006382A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF29C45213D072C006382A9 /* LaunchScreen.storyboard */; };
+		ABF29C4A213D072C006382A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF29C49213D072C006382A9 /* main.m */; };
+		ABF29C52213D0B65006382A9 /* View2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF29C51213D0B65006382A9 /* View2TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		151BFB92E0B37FA342F90962 /* Pods-BLERun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLERun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLERun/Pods-BLERun.debug.xcconfig"; sourceTree = "<group>"; };
+		9771B17D3CEEAEC34811DFC3 /* Pods-BLERun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLERun.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLERun/Pods-BLERun.release.xcconfig"; sourceTree = "<group>"; };
+		AB0E9FBB213FCB85007A8E3D /* MessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		AB0E9FBC213FCB85007A8E3D /* MessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		AB0E9FBD213FCB85007A8E3D /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		AB9A77E1213FBF2100B1C531 /* systemEmoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = systemEmoji.plist; sourceTree = "<group>"; };
+		AB9A77E2213FBF2100B1C531 /* emotion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotion.plist; sourceTree = "<group>"; };
+		AB9A77E3213FBF2100B1C531 /* face.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = face.plist; sourceTree = "<group>"; };
+		AB9A77E4213FBF2100B1C531 /* ChatKeyBoardMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatKeyBoardMacroDefine.h; sourceTree = "<group>"; };
+		AB9A77E6213FBF2100B1C531 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		AB9A77E7213FBF2100B1C531 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		AB9A77E9213FBF2100B1C531 /* ChatToolBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatToolBarItem.h; sourceTree = "<group>"; };
+		AB9A77EA213FBF2100B1C531 /* MoreItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreItem.h; sourceTree = "<group>"; };
+		AB9A77EB213FBF2100B1C531 /* FaceThemeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceThemeModel.h; sourceTree = "<group>"; };
+		AB9A77EC213FBF2100B1C531 /* MoreItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreItem.m; sourceTree = "<group>"; };
+		AB9A77ED213FBF2100B1C531 /* ChatToolBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatToolBarItem.m; sourceTree = "<group>"; };
+		AB9A77EE213FBF2100B1C531 /* FaceThemeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceThemeModel.m; sourceTree = "<group>"; };
+		AB9A77EF213FBF2100B1C531 /* ChatKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatKeyBoard.h; sourceTree = "<group>"; };
+		AB9A77F2213FBF2100B1C531 /* FaceThemeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceThemeView.h; sourceTree = "<group>"; };
+		AB9A77F3213FBF2100B1C531 /* FacePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacePageView.h; sourceTree = "<group>"; };
+		AB9A77F4213FBF2100B1C531 /* FacePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacePanel.m; sourceTree = "<group>"; };
+		AB9A77F5213FBF2100B1C531 /* FaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceButton.h; sourceTree = "<group>"; };
+		AB9A77F6213FBF2100B1C531 /* PanelBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelBottomView.m; sourceTree = "<group>"; };
+		AB9A77F7213FBF2100B1C531 /* FaceThemeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceThemeView.m; sourceTree = "<group>"; };
+		AB9A77F8213FBF2100B1C531 /* FacePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacePanel.h; sourceTree = "<group>"; };
+		AB9A77F9213FBF2100B1C531 /* FacePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacePageView.m; sourceTree = "<group>"; };
+		AB9A77FA213FBF2100B1C531 /* PanelBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelBottomView.h; sourceTree = "<group>"; };
+		AB9A77FB213FBF2100B1C531 /* FaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceButton.m; sourceTree = "<group>"; };
+		AB9A77FD213FBF2100B1C531 /* RFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTextView.h; sourceTree = "<group>"; };
+		AB9A77FE213FBF2100B1C531 /* RFRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFRecordButton.m; sourceTree = "<group>"; };
+		AB9A77FF213FBF2100B1C531 /* OfficialAccountToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfficialAccountToolbar.h; sourceTree = "<group>"; };
+		AB9A7800213FBF2100B1C531 /* ChatToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatToolBar.m; sourceTree = "<group>"; };
+		AB9A7801213FBF2100B1C531 /* RFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTextView.m; sourceTree = "<group>"; };
+		AB9A7802213FBF2100B1C531 /* OfficialAccountToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfficialAccountToolbar.m; sourceTree = "<group>"; };
+		AB9A7803213FBF2100B1C531 /* RFRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFRecordButton.h; sourceTree = "<group>"; };
+		AB9A7804213FBF2100B1C531 /* ChatToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatToolBar.h; sourceTree = "<group>"; };
+		AB9A7806213FBF2100B1C531 /* MorePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorePanel.m; sourceTree = "<group>"; };
+		AB9A7807213FBF2100B1C531 /* MorePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorePanel.h; sourceTree = "<group>"; };
+		AB9A7808213FBF2100B1C531 /* ChatKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatKeyBoard.m; sourceTree = "<group>"; };
+		ABF29C37213D072B006382A9 /* BLERun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLERun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF29C3A213D072B006382A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF29C3B213D072B006382A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF29C3D213D072B006382A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABF29C3E213D072B006382A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABF29C41213D072B006382A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF29C43213D072C006382A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF29C46213D072C006382A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF29C48213D072C006382A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF29C49213D072C006382A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF29C50213D0B65006382A9 /* View2TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View2TableViewController.h; sourceTree = "<group>"; };
+		ABF29C51213D0B65006382A9 /* View2TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View2TableViewController.m; sourceTree = "<group>"; };
+		D2D151CF1DFA0F53DCA4E220 /* libPods-BLERun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLERun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF29C34213D072B006382A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6613DE86AF0BBD706D877E48 /* libPods-BLERun.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5424468556A15B7ABEB385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D151CF1DFA0F53DCA4E220 /* libPods-BLERun.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB9A77DF213FBF2100B1C531 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A77E0213FBF2100B1C531 /* plist */,
+				AB9A77E4213FBF2100B1C531 /* ChatKeyBoardMacroDefine.h */,
+				AB9A77E5213FBF2100B1C531 /* Cagegory */,
+				AB9A77E8213FBF2100B1C531 /* Models */,
+				AB9A77EF213FBF2100B1C531 /* ChatKeyBoard.h */,
+				AB9A77F0213FBF2100B1C531 /* Views */,
+				AB9A7808213FBF2100B1C531 /* ChatKeyBoard.m */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		AB9A77E0213FBF2100B1C531 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A77E1213FBF2100B1C531 /* systemEmoji.plist */,
+				AB9A77E2213FBF2100B1C531 /* emotion.plist */,
+				AB9A77E3213FBF2100B1C531 /* face.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		AB9A77E5213FBF2100B1C531 /* Cagegory */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A77E6213FBF2100B1C531 /* NSString+Emoji.m */,
+				AB9A77E7213FBF2100B1C531 /* NSString+Emoji.h */,
+			);
+			path = Cagegory;
+			sourceTree = "<group>";
+		};
+		AB9A77E8213FBF2100B1C531 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A77E9213FBF2100B1C531 /* ChatToolBarItem.h */,
+				AB9A77EA213FBF2100B1C531 /* MoreItem.h */,
+				AB9A77EB213FBF2100B1C531 /* FaceThemeModel.h */,
+				AB9A77EC213FBF2100B1C531 /* MoreItem.m */,
+				AB9A77ED213FBF2100B1C531 /* ChatToolBarItem.m */,
+				AB9A77EE213FBF2100B1C531 /* FaceThemeModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB9A77F0213FBF2100B1C531 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A77F1213FBF2100B1C531 /* FacePanel */,
+				AB9A77FC213FBF2100B1C531 /* ToolBarPanel */,
+				AB9A7805213FBF2100B1C531 /* MorePanel */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB9A77F1213FBF2100B1C531 /* FacePanel */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A77F2213FBF2100B1C531 /* FaceThemeView.h */,
+				AB9A77F3213FBF2100B1C531 /* FacePageView.h */,
+				AB9A77F4213FBF2100B1C531 /* FacePanel.m */,
+				AB9A77F5213FBF2100B1C531 /* FaceButton.h */,
+				AB9A77F6213FBF2100B1C531 /* PanelBottomView.m */,
+				AB9A77F7213FBF2100B1C531 /* FaceThemeView.m */,
+				AB9A77F8213FBF2100B1C531 /* FacePanel.h */,
+				AB9A77F9213FBF2100B1C531 /* FacePageView.m */,
+				AB9A77FA213FBF2100B1C531 /* PanelBottomView.h */,
+				AB9A77FB213FBF2100B1C531 /* FaceButton.m */,
+			);
+			path = FacePanel;
+			sourceTree = "<group>";
+		};
+		AB9A77FC213FBF2100B1C531 /* ToolBarPanel */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A77FD213FBF2100B1C531 /* RFTextView.h */,
+				AB9A77FE213FBF2100B1C531 /* RFRecordButton.m */,
+				AB9A77FF213FBF2100B1C531 /* OfficialAccountToolbar.h */,
+				AB9A7800213FBF2100B1C531 /* ChatToolBar.m */,
+				AB9A7801213FBF2100B1C531 /* RFTextView.m */,
+				AB9A7802213FBF2100B1C531 /* OfficialAccountToolbar.m */,
+				AB9A7803213FBF2100B1C531 /* RFRecordButton.h */,
+				AB9A7804213FBF2100B1C531 /* ChatToolBar.h */,
+			);
+			path = ToolBarPanel;
+			sourceTree = "<group>";
+		};
+		AB9A7805213FBF2100B1C531 /* MorePanel */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A7806213FBF2100B1C531 /* MorePanel.m */,
+				AB9A7807213FBF2100B1C531 /* MorePanel.h */,
+			);
+			path = MorePanel;
+			sourceTree = "<group>";
+		};
+		ABF29C2E213D072B006382A9 = {
+			isa = PBXGroup;
+			children = (
+				ABF29C39213D072B006382A9 /* BLERun */,
+				ABF29C38213D072B006382A9 /* Products */,
+				E63683FD82D14434D7DB766A /* Pods */,
+				4E5424468556A15B7ABEB385 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF29C38213D072B006382A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF29C37213D072B006382A9 /* BLERun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF29C39213D072B006382A9 /* BLERun */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A77DF213FBF2100B1C531 /* KeyBoard */,
+				ABF29C3A213D072B006382A9 /* AppDelegate.h */,
+				ABF29C3B213D072B006382A9 /* AppDelegate.m */,
+				ABF29C3D213D072B006382A9 /* ViewController.h */,
+				ABF29C3E213D072B006382A9 /* ViewController.m */,
+				ABF29C50213D0B65006382A9 /* View2TableViewController.h */,
+				ABF29C51213D0B65006382A9 /* View2TableViewController.m */,
+				AB0E9FBB213FCB85007A8E3D /* MessageTableViewCell.h */,
+				AB0E9FBC213FCB85007A8E3D /* MessageTableViewCell.m */,
+				AB0E9FBD213FCB85007A8E3D /* MessageTableViewCell.xib */,
+				ABF29C40213D072B006382A9 /* Main.storyboard */,
+				ABF29C43213D072C006382A9 /* Assets.xcassets */,
+				ABF29C45213D072C006382A9 /* LaunchScreen.storyboard */,
+				ABF29C48213D072C006382A9 /* Info.plist */,
+				ABF29C49213D072C006382A9 /* main.m */,
+			);
+			path = BLERun;
+			sourceTree = "<group>";
+		};
+		E63683FD82D14434D7DB766A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				151BFB92E0B37FA342F90962 /* Pods-BLERun.debug.xcconfig */,
+				9771B17D3CEEAEC34811DFC3 /* Pods-BLERun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF29C36213D072B006382A9 /* BLERun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF29C4D213D072C006382A9 /* Build configuration list for PBXNativeTarget "BLERun" */;
+			buildPhases = (
+				737BE33CDEDA464B80C78581 /* [CP] Check Pods Manifest.lock */,
+				ABF29C33213D072B006382A9 /* Sources */,
+				ABF29C34213D072B006382A9 /* Frameworks */,
+				ABF29C35213D072B006382A9 /* Resources */,
+				6C6A2B9EBEA38DE4F4335F80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLERun;
+			productName = BLERun;
+			productReference = ABF29C37213D072B006382A9 /* BLERun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF29C2F213D072B006382A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = yolo;
+				TargetAttributes = {
+					ABF29C36213D072B006382A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ABF29C32213D072B006382A9 /* Build configuration list for PBXProject "BLERun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF29C2E213D072B006382A9;
+			productRefGroup = ABF29C38213D072B006382A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF29C36213D072B006382A9 /* BLERun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF29C35213D072B006382A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9A7809213FBF2200B1C531 /* systemEmoji.plist in Resources */,
+				ABF29C47213D072C006382A9 /* LaunchScreen.storyboard in Resources */,
+				AB9A780A213FBF2200B1C531 /* emotion.plist in Resources */,
+				ABF29C44213D072C006382A9 /* Assets.xcassets in Resources */,
+				ABF29C42213D072B006382A9 /* Main.storyboard in Resources */,
+				AB0E9FBF213FCB85007A8E3D /* MessageTableViewCell.xib in Resources */,
+				AB9A780B213FBF2200B1C531 /* face.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C6A2B9EBEA38DE4F4335F80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BLERun/Pods-BLERun-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLERun/Pods-BLERun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737BE33CDEDA464B80C78581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLERun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF29C33213D072B006382A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9A781A213FBF2200B1C531 /* ChatKeyBoard.m in Sources */,
+				AB9A780C213FBF2200B1C531 /* NSString+Emoji.m in Sources */,
+				AB9A7812213FBF2200B1C531 /* FaceThemeView.m in Sources */,
+				AB9A780D213FBF2200B1C531 /* MoreItem.m in Sources */,
+				ABF29C3F213D072B006382A9 /* ViewController.m in Sources */,
+				ABF29C52213D0B65006382A9 /* View2TableViewController.m in Sources */,
+				AB9A780E213FBF2200B1C531 /* ChatToolBarItem.m in Sources */,
+				AB9A7814213FBF2200B1C531 /* FaceButton.m in Sources */,
+				ABF29C4A213D072C006382A9 /* main.m in Sources */,
+				AB9A780F213FBF2200B1C531 /* FaceThemeModel.m in Sources */,
+				AB9A7818213FBF2200B1C531 /* OfficialAccountToolbar.m in Sources */,
+				AB9A7813213FBF2200B1C531 /* FacePageView.m in Sources */,
+				AB9A7819213FBF2200B1C531 /* MorePanel.m in Sources */,
+				AB9A7815213FBF2200B1C531 /* RFRecordButton.m in Sources */,
+				AB9A7810213FBF2200B1C531 /* FacePanel.m in Sources */,
+				AB9A7816213FBF2200B1C531 /* ChatToolBar.m in Sources */,
+				AB9A7811213FBF2200B1C531 /* PanelBottomView.m in Sources */,
+				AB0E9FBE213FCB85007A8E3D /* MessageTableViewCell.m in Sources */,
+				ABF29C3C213D072B006382A9 /* AppDelegate.m in Sources */,
+				AB9A7817213FBF2200B1C531 /* RFTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABF29C40213D072B006382A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF29C41213D072B006382A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF29C45213D072C006382A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF29C46213D072C006382A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF29C4B213D072C006382A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABF29C4C213D072C006382A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF29C4E213D072C006382A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151BFB92E0B37FA342F90962 /* Pods-BLERun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2A86WGJGV9;
+				INFOPLIST_FILE = BLERun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolodt.BLERun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c8acc586-b4b7-4742-8c1d-1e9250d41e5d";
+				PROVISIONING_PROFILE_SPECIFIER = dev_all;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF29C4F213D072C006382A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9771B17D3CEEAEC34811DFC3 /* Pods-BLERun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BLERun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolodt.BLERun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF29C32213D072B006382A9 /* Build configuration list for PBXProject "BLERun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF29C4B213D072C006382A9 /* Debug */,
+				ABF29C4C213D072C006382A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF29C4D213D072C006382A9 /* Build configuration list for PBXNativeTarget "BLERun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF29C4E213D072C006382A9 /* Debug */,
+				ABF29C4F213D072C006382A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF29C2F213D072B006382A9 /* Project object */;
+}
